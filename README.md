@@ -11,7 +11,7 @@ The project uses **Python, Scikit-Learn, Pandas, and Streamlit** to build and de
 👉 **Open the App:**
 APP_LINK
 
-*(Example after deployment: https://car-price-predictor.streamlit.app)*
+https://car-price-predictor-uvhxrvspktugfhelcvcwgs.streamlit.app/
 
 ---
 

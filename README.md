@@ -17,6 +17,7 @@ APP_LINK
 
 ## 📸 Application Screenshot
 
+<img width="1461" height="796" alt="image" src="https://github.com/user-attachments/assets/cd1f557e-3791-4aa1-929d-ec30f704aaf2" />
 
 
 ---

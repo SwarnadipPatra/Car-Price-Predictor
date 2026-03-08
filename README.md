@@ -112,7 +112,6 @@ After preprocessing, the dataset is used to train the regression model that pred
 ## 👨‍💻 Author
 
 **Swarnadip Patra**
-B.Tech – Computer Science and Engineering
 
 ---
 

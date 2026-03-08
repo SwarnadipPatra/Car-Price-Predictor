@@ -17,7 +17,8 @@ APP_LINK
 
 ## 📸 Application Screenshot
 
-<img width="1461" height="796" alt="image" src="https://github.com/user-attachments/assets/cd1f557e-3791-4aa1-929d-ec30f704aaf2" />
+<img width="1468" height="777" alt="Screenshot 2026-03-08 180922" src="https://github.com/user-attachments/assets/81eb12db-88ef-47fc-b096-27e3901a2483" />
+
 
 
 ---
@@ -112,7 +113,6 @@ After preprocessing, the dataset is used to train the regression model that pred
 
 **Swarnadip Patra**
 B.Tech – Computer Science and Engineering
-College of Engineering and Management, Kolaghat
 
 ---
 

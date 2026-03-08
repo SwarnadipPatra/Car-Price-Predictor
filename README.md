@@ -1,29 +1,28 @@
 # 🚘 Car Price Predictor
 
-A Machine Learning web application that predicts the **price of used cars** based on important factors such as company, model, manufacturing year, kilometers driven, and fuel type.
+A Machine Learning web application that predicts the **price of used cars** based on several features such as company, model, manufacturing year, kilometers driven, and fuel type.
 
-This project uses **Python, Scikit-Learn, Pandas, and Streamlit** to build an interactive web interface where users can estimate the market value of a car.
+The project uses **Python, Scikit-Learn, Pandas, and Streamlit** to build and deploy an interactive web interface where users can estimate the market value of a car.
 
 ---
 
-## 🌐 Live Application
+# 🌐 Live Application
 
 👉 **Open the App:**
 APP_LINK
 
-*(Example: https://car-price-predictor.streamlit.app)*
+*(Example after deployment: https://car-price-predictor.streamlit.app)*
 
 ---
 
-## 📸 Application Screenshot
+# 📸 Application Screenshot
 
-<img width="1468" height="777" alt="Screenshot 2026-03-08 180922" src="https://github.com/user-attachments/assets/81eb12db-88ef-47fc-b096-27e3901a2483" />
-
+<img width="1468" height="777" alt="Screenshot 2026-03-08 180922" src="https://github.com/user-attachments/assets/889f568e-dbca-45bc-a917-a28bce5bd42a" />
 
 
 ---
 
-## 📌 Features
+# 📌 Features
 
 * Select **car company**
 * Select **car model**
@@ -34,22 +33,22 @@ APP_LINK
 
 ---
 
-## 🧠 Machine Learning Model
+# 🧠 Machine Learning Model
 
 The application uses a **Linear Regression model** trained on a dataset of used cars.
 
-### Workflow
+### Steps involved:
 
-1. Data cleaning and preprocessing
-2. Removing invalid or missing entries
+1. Data cleaning
+2. Removing invalid entries
 3. Feature selection
-4. Encoding categorical variables
-5. Training the **Linear Regression model**
-6. Saving the trained model using **Pickle**
+4. One-Hot Encoding for categorical features
+5. Training using **Scikit-Learn Linear Regression**
+6. Exporting the trained model using **Pickle**
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 **Programming Language**
 
@@ -65,29 +64,30 @@ The application uses a **Linear Regression model** trained on a dataset of used 
 **Tools**
 
 * Jupyter Notebook
+* Git
 * GitHub
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
 Car-Price-Predictor
 │
-├── application.py                # Streamlit web application
-├── LinearRegressionModel.pkl     # Trained machine learning model
+├── application.py                # Streamlit web app
+├── LinearRegressionModel.pkl     # Trained ML model
 ├── Cleaned Car.csv               # Cleaned dataset
 ├── quikr_car.csv                 # Original dataset
 ├── Car Price Predictor.ipynb     # Model training notebook
-├── screenshot.png                # Application screenshot
+├── requirements.txt              # Project dependencies
 └── README.md                     # Project documentation
 ```
 
 ---
 
-## 📊 Dataset
+# 📊 Dataset
 
-The dataset contains information about used cars including:
+The dataset contains information about used cars such as:
 
 * Car name
 * Company
@@ -96,23 +96,23 @@ The dataset contains information about used cars including:
 * Fuel type
 * Price
 
-After preprocessing, the dataset is used to train the regression model that predicts car prices.
+After preprocessing, the dataset is used to train the regression model.
 
 ---
 
-## 🚀 Future Improvements
+# 🚀 Future Improvements
 
-* Improve prediction accuracy
-* Add more features for prediction
-* Enhance user interface design
-* Add car price comparison charts
+* Add more car features for better prediction
+* Improve model accuracy
+* Add car image preview
+* Add price comparison charts
+* Improve UI design
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Swarnadip Patra**
 
 ---
 
-⭐ If you found this project useful, consider **starring the repository**.
